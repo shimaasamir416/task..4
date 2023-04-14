@@ -1,0 +1,336 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(../images/man-look-graphic-chart-business-analytics-concept-big-data-processing-icon_39422-761\ \(1\).jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    overflow: auto;
+    position: relative;
+}
+.header{
+    width:100%;
+    height: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.list1 li{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 20px;
+    list-style:none;
+    display: inline-block;
+    
+}
+.list1{
+    float: right;
+    margin-right: 140px;
+}
+.list1 li a{
+    text-decoration:none;
+    color: white;
+
+}
+.list1 li a:hover{
+    color: rgb(176, 216, 216) ;
+}
+.ad1{
+    text-align: center;
+    margin-top: 90px;
+    font-size:45px;
+}
+.divs{
+    width: 100px;
+    height: 150px;
+    border: 2px solid  rgb(65, 90, 151);
+    border-radius: 20px;
+    background-color: rgb(34, 65, 143);
+    text-align: center;
+}
+.divs a i{
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(34, 65, 143);
+    color: white;
+    margin-top: 5px;
+    padding: 7px;
+}
+.divs .p1{
+    margin-top: 7px;
+    font-size: 20px;
+}
+.divs .p2{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.divs button{
+    background-color:rgb(71, 88, 129);
+    width: 100%;
+    border: none;
+    position: relative;
+    z-index: 0;
+    margin-top: 13px;
+    color: white;
+}
+.divs button::after{
+    position: absolute;
+    z-index: 1;
+    content: "";
+    background-color: #00000090;
+}
+.div1{
+    float: left;
+    margin-top: 50px;
+    position: absolute;
+    animation-name:change1;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+}
+@keyframes change1{
+    0%{
+        background-color:rgb(47, 74, 144);
+        left: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        left: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        left:500px;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        left: 950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        left: 1400px;
+    }
+}
+.div2{
+    float:left;
+    margin-left: 1400px;
+    margin-top: 250px;
+    animation-name:change2;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes change2{
+    0%{
+        background-color:rgb(47, 74, 144);
+        right: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        right: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        right:500;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        right:950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        right: 1400px;
+    }
+}
+.div3{
+    float: left;
+    margin-top: 450px;
+    animation-name:change3;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+@keyframes change3{
+    0%{
+        background-color:rgb(47, 74, 144);
+        left: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        left: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        left:500px;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        left: 950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        left: 1400px;
+    }
+}
+.div4{
+    float:left;
+    margin-left: 1400px;
+    margin-top: 650px;
+    animation-name:change4;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes change4{
+    0%{
+        background-color:rgb(47, 74, 144);
+        right: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        right: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        right:500;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        right:950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        right: 1400px;
+    }
+}
+.div5{
+    float: left;
+    margin-top: 850px;
+    animation-name:change5;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+@keyframes change5{
+    0%{
+        background-color:rgb(47, 74, 144);
+        left: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        left: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        left:500px;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        left: 950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        left: 1400px;
+    }
+}
+.div6{
+    float:left;
+    margin-left: 1400px;
+    margin-top: 1050px;
+    animation-name:change6;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+@keyframes change6{
+    0%{
+        background-color:rgb(47, 74, 144);
+        right: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        right: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        right:500;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        right:950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        right: 1400px;
+    }
+}
+.div7{
+    float: left;
+    margin-top: 1250px;
+    animation-name:change7;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+@keyframes change7{
+    0%{
+        background-color:rgb(47, 74, 144);
+        left: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        left: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        left:500px;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        left: 950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        left: 1400px;
+    }
+}
+.div8{
+    float:left;
+    margin-left: 1400px;
+    margin-top: 1450px;
+    animation-name:change8;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 21s;
+    animation-fill-mode: forwards;
+}
+@keyframes change8{
+    0%{
+        background-color:rgb(47, 74, 144);
+        right: 0;
+    }
+    25%{
+        background-color:rgb(56, 81, 144);
+        right: 250px;
+    }
+    50%{
+        background-color:rgb(67, 89, 146);
+        right:500;
+    }
+    75%{
+        background-color:rgb(71, 90, 137);
+        right:950px;
+    }
+    100%{
+        background-color:rgb(71, 88, 129);
+        right: 1400px;
+    }
+}
